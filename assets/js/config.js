@@ -6,7 +6,7 @@ const CONFIG = {
     title:
       "Computer Systems Engineering student — Cybersecurity & Network Defense",
     email: "alejandrodcjm@gmail.com",
-    linkedin: "www.linkedin.com/in/alejandro-villarreal24",
+    linkedin: "https://www.linkedin.com/in/alejandro-villarreal24/",
     github: "https://github.com/Danielv109",
   },
 
@@ -476,4 +476,5 @@ if (typeof module !== "undefined" && module.exports) {
     COMPLIANCE_DATA,
   };
 }
+
 
