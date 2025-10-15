@@ -5,9 +5,9 @@ const CONFIG = {
     name: "Alejandro Daniel Villarreal Soto",
     title:
       "Computer Systems Engineering student — Cybersecurity & Network Defense",
-    email: "alejandro.villarreal@email.com",
-    linkedin: "https://linkedin.com/in/alejandro-villarreal",
-    github: "https://github.com/alejandrovillarreal",
+    email: "alejandrodcjm@gmail.com",
+    linkedin: "www.linkedin.com/in/alejandro-villarreal24",
+    github: "https://github.com/Danielv109",
   },
 
   // Navigation Items
@@ -476,3 +476,4 @@ if (typeof module !== "undefined" && module.exports) {
     COMPLIANCE_DATA,
   };
 }
+
