@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alejandro Daniel Villarreal Soto - Portfolio Summary</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        font-size: 11pt;
+        line-height: 1.4;
+        color: #2d3748;
+        background: white;
+        padding: 20mm;
+        max-width: 210mm;
+        margin: 0 auto;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #1e40af;
+      }
+
+      .header h1 {
+        font-size: 20pt;
+        font-weight: bold;
+        color: #1e40af;
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
+      }
+
+      .header .subtitle {
+        font-size: 12pt;
+        color: #4a5568;
+        margin-bottom: 8px;
+        font-weight: 500;
+      }
+
+      .header .contact {
+        font-size: 10pt;
+        color: #718096;
+      }
+
+      .section {
+        margin-bottom: 18px;
+      }
+
+      .section-title {
+        font-size: 11pt;
+        font-weight: bold;
+        color: #1e40af;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .competencies {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin-bottom: 15px;
+      }
+
+      .competencies li {
+        font-size: 10pt;
+        list-style: none;
+        padding-left: 12px;
+        position: relative;
+        line-height: 1.5;
+      }
+
+      .competencies li::before {
+        content: "▸";
+        position: absolute;
+        left: 0;
+        color: #1e40af;
+        font-weight: bold;
+      }
+
+      .project-box {
+        border: 1px solid #cbd5e0;
+        border-radius: 6px;
+        padding: 12px;
+        margin-bottom: 12px;
+        background: #f8fafc;
+      }
+
+      .project-title {
+        font-size: 11pt;
+        font-weight: bold;
+        color: #1e40af;
+        margin-bottom: 4px;
+      }
+
+      .project-problem {
+        font-size: 10pt;
+        color: #4a5568;
+        font-style: italic;
+        margin-bottom: 6px;
+      }
+
+      .project-details {
+        font-size: 9.5pt;
+        line-height: 1.3;
+      }
+
+      .project-details li {
+        margin-bottom: 2px;
+        list-style: none;
+        padding-left: 10px;
+        position: relative;
+      }
+
+      .project-details li::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: #1e40af;
+        font-size: 8pt;
+      }
+
+      .kpis {
+        background: linear-gradient(135deg, #ebf8ff, #bee3f8);
+        padding: 6px 10px;
+        border-radius: 4px;
+        margin: 6px 0;
+        font-size: 9.5pt;
+        font-weight: 500;
+        color: #2d3748;
+      }
+
+      .compliance {
+        font-size: 9pt;
+        color: #4a5568;
+        margin-top: 4px;
+      }
+
+      .two-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+      }
+
+      .runbook-item {
+        font-size: 10pt;
+        margin-bottom: 6px;
+        padding-left: 12px;
+        position: relative;
+      }
+
+      .runbook-item::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: #059669;
+        font-weight: bold;
+      }
+
+      .mapping-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        font-size: 9pt;
+      }
+
+      .mapping-item {
+        margin-bottom: 3px;
+        padding-left: 10px;
+        position: relative;
+      }
+
+      .mapping-item::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #1e40af;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 15px;
+        border-top: 1px solid #e2e8f0;
+        font-size: 10pt;
+        color: #718096;
+      }
+
+      .footer .portfolio-url {
+        color: #1e40af;
+        font-weight: 500;
+        text-decoration: none;
+      }
+
+      /* Print optimization */
+      @media print {
+        body {
+          padding: 15mm;
+          font-size: 10pt;
+        }
+
+        .project-box {
+          break-inside: avoid;
+        }
+
+        .section {
+          break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>ALEJANDRO DANIEL VILLARREAL SOTO</h1>
+      <div class="subtitle">
+        Computer Systems Engineering Student — Cybersecurity & Network Defense
+      </div>
+      <div class="contact">
+        Email: alejandro.villarreal@email.com | LinkedIn:
+        linkedin.com/in/alejandro-villarreal | GitHub:
+        github.com/alejandrovillarreal
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Core Competencies</div>
+      <ul class="competencies">
+        <li>
+          <strong>Fortinet</strong> (FortiGate, FortiManager) &
+          <strong>Palo Alto</strong> (PAN-OS, Panorama)
+        </li>
+        <li>
+          <strong>SD-WAN Implementation</strong> — SLA-based routing, path
+          optimization
+        </li>
+        <li>
+          <strong>SSL/TLS Inspection</strong> — Certificate management,
+          decryption policies
+        </li>
+        <li>
+          <strong>IPS/IDS Deployment</strong> — Snort, Suricata, custom
+          signatures
+        </li>
+        <li>
+          <strong>SIEM/SOAR Operations</strong> — Microsoft Sentinel, KQL,
+          automated playbooks
+        </li>
+        <li>
+          <strong>Zero Trust Architecture</strong> — ZTNA/SASE, continuous
+          verification
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Key Projects</div>
+
+      <div class="project-box">
+        <div class="project-title">
+          1. PERIMETER & SD-WAN WITH MICROSEGMENTATION
+        </div>
+        <div class="project-problem">
+          Problem: Reduce exposed services and improve link reliability
+        </div>
+        <ul class="project-details">
+          <li>HA firewalls (Fortinet/PAN), BGP/OSPF, SD-WAN (SLA-based)</li>
+          <li>SSL/TLS inspection with exception list; URL filtering; IPS</li>
+          <li>Centralized logging to SIEM (CEF/syslog) and dashboards</li>
+        </ul>
+        <div class="kpis">
+          KPIs: ↓ Exposed services 40% | ↑ Inspected traffic 30% | ↓ SD-WAN
+          latency 18%
+        </div>
+        <div class="compliance">
+          Compliance: ISO 27001 A.13.1.1, PCI DSS 1.2, DORA Art. 11, NIS2 Art.
+          21
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-title">2. SIEM DETECTION + SOAR AUTOMATION</div>
+        <div class="project-problem">
+          Problem: Reduce mean time to detection and automate incident response
+        </div>
+        <ul class="project-details">
+          <li>Microsoft Sentinel deployment with custom data connectors</li>
+          <li>KQL queries for advanced threat hunting and correlation</li>
+          <li>Automated playbooks using Logic Apps for response</li>
+        </ul>
+        <div class="kpis">
+          KPIs: ↓ MTTD 65% | ↑ Automated response rate 80% | ↓ False positives
+          45%
+        </div>
+        <div class="compliance">
+          Compliance: ISO 27001 A.16.1.2, PCI DSS 10.6, DORA Art. 17, NIS2 Art.
+          23
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-title">3. PCI-READY HARDENING IMPLEMENTATION</div>
+        <div class="project-problem">
+          Problem: Achieve PCI DSS compliance through segmentation and TLS
+          enforcement
+        </div>
+        <ul class="project-details">
+          <li>Network segmentation with VLANs, ACLs, and firewall zones</li>
+          <li>TLS 1.2+ enforcement across all services and applications</li>
+          <li>Centralized logging with 90-day retention and integrity</li>
+        </ul>
+        <div class="kpis">
+          KPIs: ↑ PCI DSS compliance score to 98% | ↓ Security vulnerabilities
+          75%
+        </div>
+        <div class="compliance">
+          Compliance: PCI DSS 1.1, 4.1, 10.1 | ISO 27001 A.13.1.3, A.10.1.1
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-title">4. ZTNA/SASE VS TRADITIONAL VPN</div>
+        <div class="project-problem">
+          Problem: Replace traditional VPN with Zero Trust Network Access
+        </div>
+        <ul class="project-details">
+          <li>Palo Alto Prisma SASE deployment with global PoPs</li>
+          <li>Application-specific access policies (no network access)</li>
+          <li>Continuous device and user verification (identity + risk)</li>
+        </ul>
+        <div class="kpis">
+          KPIs: ↓ Connection latency 40% vs VPN | ↑ Security posture 55% | ↓
+          Tickets 30%
+        </div>
+        <div class="compliance">
+          Compliance: ISO 27001 A.13.1.1, NIST Zero Trust SP 800-207, DORA Art.
+          8
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="two-column">
+        <div>
+          <div class="section-title">Incident Response Expertise</div>
+          <div class="runbook-item">
+            <strong>VPN Brute-Force Response</strong> — 10-step playbook:
+            detection, containment, evidence collection
+          </div>
+          <div class="runbook-item">
+            <strong>Firewall Policy Change Control</strong> — CAB approval,
+            security review, implementation
+          </div>
+          <div class="runbook-item">
+            <strong>SSL/TLS Exception Workflow</strong> — Risk assessment,
+            compensating controls, reviews
+          </div>
+        </div>
+        <div>
+          <div class="section-title">Technical Proficiency</div>
+          <div class="runbook-item">
+            <strong>Routing & Switching</strong> — BGP, OSPF, advanced
+            troubleshooting (Wireshark, tcpdump)
+          </div>
+          <div class="runbook-item">
+            <strong>Security Operations</strong> — NIST IR framework, threat
+            hunting, vulnerability management
+          </div>
+          <div class="runbook-item">
+            <strong>Automation</strong> — Logic Apps, PowerShell, Python
+            scripting for security ops
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Compliance Mapping</div>
+      <div class="mapping-grid">
+        <div>
+          <strong>ISO 27001/PCI:</strong>
+          <div class="mapping-item">A.13.1.1 Network Controls</div>
+          <div class="mapping-item">A.16.1.5 Incident Response</div>
+          <div class="mapping-item">PCI DSS 4.1 Cryptography</div>
+          <div class="mapping-item">PCI DSS 7.1 Access Control</div>
+        </div>
+        <div>
+          <strong>DORA/NIS2:</strong>
+          <div class="mapping-item">Art. 11 ICT Risk Management</div>
+          <div class="mapping-item">Art. 17 Detection Capabilities</div>
+          <div class="mapping-item">Art. 21 Cybersecurity Measures</div>
+          <div class="mapping-item">Art. 8 Systems Classification</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div style="margin-bottom: 8px">
+        <strong>Education & Availability:</strong> Computer Systems Engineering
+        Student | Banking/Regulated Environments Focus<br />
+        Available for: Full-time positions, internships (remote, hybrid,
+        on-site)
+      </div>
+      <div>
+        <strong>Portfolio:</strong>
+        <a
+          href="https://danielv109.github.io/My-portfolio/"
+          class="portfolio-url"
+          >danielv109.github.io/My-portfolio</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+ALEJANDRO DANIEL VILLARREAL SOTO
+Computer Systems Engineering Student — Cybersecurity & Network Defense
+Email: alejandro.villarreal@email.com | LinkedIn: linkedin.com/in/alejandro-villarreal | GitHub: github.com/alejandrovillarreal
+
+═══════════════════════════════════════════════════════════════════════════════════════
+
+CORE COMPETENCIES
+• Fortinet (FortiGate, FortiManager) & Palo Alto (PAN-OS, Panorama) — Enterprise firewall administration
+• SD-WAN Implementation — SLA-based routing, path optimization, automated failover
+• SSL/TLS Inspection & Management — Certificate lifecycle, decryption policies, exception handling
+• IPS/IDS Deployment — Snort, Suricata, custom signatures, threat detection optimization
+• SIEM/SOAR Operations — Microsoft Sentinel, KQL queries, automated response playbooks
+• Zero Trust Architecture — ZTNA/SASE implementation, continuous verification, least privilege
+
+KEY PROJECTS
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ 1. PERIMETER & SD-WAN WITH MICROSEGMENTATION                                      │
+│ Problem: Reduce exposed services and improve link reliability                      │
+│ → HA firewalls (Fortinet/PAN), BGP/OSPF, SD-WAN (SLA-based)                      │
+│ → SSL/TLS inspection with exception list; URL filtering; IPS                      │
+│ → Centralized logging to SIEM (CEF/syslog) and dashboards                        │
+│ KPIs: ↓ Exposed services 40% | ↑ Inspected traffic 30% | ↓ SD-WAN latency 18%   │
+│ Compliance: ISO 27001 A.13.1.1, PCI DSS 1.2, DORA Art. 11, NIS2 Art. 21        │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ 2. SIEM DETECTION + SOAR AUTOMATION                                               │
+│ Problem: Reduce mean time to detection and automate incident response             │
+│ → Microsoft Sentinel deployment with custom data connectors                       │
+│ → KQL queries for advanced threat hunting and correlation                         │
+│ → Automated playbooks using Logic Apps for response                               │
+│ KPIs: ↓ MTTD 65% | ↑ Automated response rate 80% | ↓ False positives 45%        │
+│ Compliance: ISO 27001 A.16.1.2, PCI DSS 10.6, DORA Art. 17, NIS2 Art. 23       │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ 3. PCI-READY HARDENING IMPLEMENTATION                                             │
+│ Problem: Achieve PCI DSS compliance through segmentation and TLS enforcement      │
+│ → Network segmentation with VLANs, ACLs, and firewall zones                      │
+│ → TLS 1.2+ enforcement across all services and applications                       │
+│ → Centralized logging with 90-day retention and integrity                         │
+│ KPIs: ↑ PCI DSS compliance score to 98% | ↓ Security vulnerabilities 75%        │
+│ Compliance: PCI DSS 1.1, 4.1, 10.1 | ISO 27001 A.13.1.3, A.10.1.1             │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│ 4. ZTNA/SASE VS TRADITIONAL VPN                                                   │
+│ Problem: Replace traditional VPN with Zero Trust Network Access                   │
+│ → Palo Alto Prisma SASE deployment with global PoPs                              │
+│ → Application-specific access policies (no network access)                        │
+│ → Continuous device and user verification (identity + risk)                       │
+│ KPIs: ↓ Connection latency 40% vs VPN | ↑ Security posture 55% | ↓ Tickets 30%  │
+│ Compliance: ISO 27001 A.13.1.1, NIST Zero Trust SP 800-207, DORA Art. 8        │
+└─────────────────────────────────────────────────────────────────────────────────────┘
+
+INCIDENT RESPONSE EXPERTISE
+• VPN Brute-Force Response (10-step playbook: detection, containment, evidence collection, stakeholder notification)
+• Firewall Policy Change Control (CAB approval process, security review, implementation, documentation)
+• SSL/TLS Decryption Exception Workflow (risk assessment, compensating controls, quarterly reviews)
+
+COMPLIANCE MAPPING
+ISO 27001/PCI: A.13.1.1 Network Controls, A.16.1.5 Incident Response, PCI DSS 4.1 Cryptography, 7.1 Access Control
+DORA/NIS2: Art. 11 ICT Risk Management, Art. 17 Detection Capabilities, Art. 21 Cybersecurity Measures
+
+TECHNICAL PROFICIENCY
+Routing & Switching: BGP, OSPF, network optimization, advanced troubleshooting (Wireshark, tcpdump)
+Security Operations: Incident Response (NIST framework), threat hunting, vulnerability management
+Automation: Logic Apps, PowerShell, Python scripting for security operations
+
+EDUCATION & AVAILABILITY
+Computer Systems Engineering Student | Banking/Regulated Environments Focus
+Available for: Full-time positions, internships (remote, hybrid, on-site)
+
+Portfolio: danielv109.github.io/My-portfolio
